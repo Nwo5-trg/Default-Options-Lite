@@ -1,0 +1,30 @@
+{
+	"geode": "4.3.0",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074"
+	},
+	"id": "nwo5.default_options_lite",
+	"name": "Default Options Lite",
+	"version": "v1.0.0",
+	"developer": "Nwo5",
+	"description": "",
+	"settings": {
+		"dont-fade": {
+			"type": "bool",
+			"name": "Dont Fade",
+			"default": true
+		},
+		"dont-enter": {
+			"type": "bool",
+			"name": "Dont Enter",
+			"default": true
+		},
+		"no-glow": {
+			"type": "bool",
+			"name": "No Glow",
+			"default": true
+		}
+	}
+}
