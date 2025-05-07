@@ -1,5 +1,5 @@
 {
-	"geode": "4.3.0",
+	"geode": "4.4.0",
 	"gd": {
 		"win": "2.2074",
 		"android": "2.2074",
@@ -7,7 +7,7 @@
 	},
 	"id": "nwo5.default_options_lite",
 	"name": "Default Options Lite",
-	"version": "v1.0.0",
+	"version": "v1.0.1",
 	"developer": "Nwo5",
 	"description": "",
 	"settings": {

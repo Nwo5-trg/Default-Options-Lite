@@ -15,9 +15,11 @@ class $modify(Editor, LevelEditorLayer) {
     GameObject* createObject(int p0, CCPoint p1, bool p2) {
         auto obj = LevelEditorLayer::createObject(p0, p1, p2);
         auto fields = m_fields.self();
-        obj->m_isDontFade = fields->dontFade;
-        obj->m_isDontEnter = fields->dontEnter;
-        obj->m_hasNoGlow = fields->noGlow;
+        if (obj) {
+            obj->m_isDontFade = fields->dontFade;
+            obj->m_isDontEnter = fields->dontEnter;
+            obj->m_hasNoGlow = fields->noGlow;
+        }
         return obj;
     }
 };
